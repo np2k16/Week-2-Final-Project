@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: 'Inter', system-ui;
     color: #243e63;
+    letter-spacing: 0.025rem;
 }
 
 a{
@@ -14,16 +15,25 @@ a{
 a:hover{
     color: #6415ff;
     text-decoration: underline;
+    cursor: pointer;
     transition: all 450ms ease;
 }
 
 button{
     background-color: #6415ff;
-    color: white;
+    color: #f7fafc;
     border-color: white;
     font-weight: bold;
     padding: 12px 32px;
-    border-radius: 9999px;
+    border-radius: 50px;
+    border-bottom-width: 0;
+    border-right-width: 0;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #5a2bb8;
+    transition: all 450ms ease;
 }
 
 nav{
