@@ -6,6 +6,7 @@
     font-family: 'Inter', system-ui;
     color: #243e63;
     letter-spacing: 0.025rem;
+    overflow-x: hidden;
 }
 
 a{
@@ -34,6 +35,21 @@ button:hover{
     cursor: pointer;
     background-color: #5a2bb8;
     transition: all 450ms ease;
+}
+
+img{
+    width: 100%;
+    max-width: 1200px;
+}
+
+h1{
+    font-size: 36px;
+    color: #1a202c;
+}
+
+p{
+    font-size: 16px;
+    color: #243e63;
 }
 
 nav{
@@ -79,5 +95,29 @@ li{
     color: #6415ff;
 }
 
+.container{
+    margin: 0 auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
 /* LANDING PAGE */
 
+.left{
+    margin: 0 auto;
+    padding: 0, 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.landing--button{
+    padding: 24px, 32px;
+    height: 100%;
+    border-radius: 50px;
+}
