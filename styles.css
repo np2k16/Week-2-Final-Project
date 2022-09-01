@@ -140,3 +140,8 @@ li{
     top: 4px;
     right: 110px;
 }
+
+.customers{
+    width: 75%;
+    opacity: 0.4;
+}
