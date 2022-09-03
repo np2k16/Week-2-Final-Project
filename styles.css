@@ -145,3 +145,27 @@ li{
     width: 75%;
     opacity: 0.4;
 }
+
+/* FEATURES PAGE */
+
+.feature-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+}
+
+.feature-list{
+    margin: 0 auto;
+    padding: 6px;
+}
+
+.features{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.secure--wrapper{
+    margin: 0, 16px;
+    padding: 32px, 8px;
+}
